@@ -1,0 +1,30 @@
+En un almacén de venta de trajes, si se compra uno se hace el 20% de descuento, si se compran 2, el 25%, si se compran 3, el 40%, y si compra más de 3, el 50%. Elaborar un algoritmo que lea la cantidad de trajes y el precio unitario (todos tienen el mismo precio) e imprima el subtotal por pagar, el descuento y el total por pagar.
+
+1.  Inicio
+2.  Pedir al usuario ingresar el numero de trajes a comprar
+3.  Pedir al usuario ingresar el valor unitario de los trajes
+4.  Si la compra es de un traje se hace el descuento del 20% al valor unitario del traje y se presenta en pantalla el subtotal el descuento y el valor total.
+	// valor total	100% 
+		x	 20% 
+	// numero de traje * valor unitario= subtotal
+	// subtotal * descuento/100 <--descuento
+	// valor total<-- subtotal - descuento
+5.  Si la compra es de dos traje se hace el descuento del 25% al valor unitario del traje y se presenta en pantalla el subtotal el descuento y el valor total.
+	// valor total	100% 
+		x	 25% 
+	// numero de traje * valor unitario= subtotal
+	// subtotal * descuento/100 <--descuento
+	// valor total<-- subtotal - descuento
+6.  Si la compra es de tres traje se hace el descuento del 40% al valor unitario del traje y se presenta en pantalla el subtotal el descuento y el valor total.
+	// valor total	100% 
+		x	 40% 
+	// numero de traje * valor unitario= subtotal
+	// subtotal * descuento/100 <--descuento
+	// valor total<-- subtotal - descuento
+6.  Si la compra es de mas de tres traje se hace el descuento del 40% al valor unitario del traje y se presenta en pantalla el subtotal el descuento y el valor total.
+	// valor total	100% 
+		x	 50% 
+	// numero de traje * valor unitario= subtotal
+	// subtotal * descuento/100 <--descuento
+	// valor total<-- subtotal - descuento
+7. Fin

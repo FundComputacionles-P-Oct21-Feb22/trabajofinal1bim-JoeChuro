@@ -1,0 +1,46 @@
+En un almacén de venta de trajes, si se compra uno se hace el 20% de descuento, si se compran 2, el 25%, si se compran 3, el 40%, y si compra más de 3, el 50%. Elaborar un algoritmo que lea la cantidad de trajes y el precio unitario (todos tienen el mismo precio) e imprima el subtotal por pagar, el descuento y el total por pagar.
+
+1.  Inicio
+2.  n_trajes, i[0,n]
+3.  v_unitario, d[0,n]
+4.  subtotal, d[0,n]
+5.  v_total, d[0,n]
+6.  descuento, d[0,n]
+7.  porcentaje1, d[0,n]<--20%
+8.  porcentaje2, d[0,n]<--25%
+9.  porcentaje3, d[0,n]<--40%
+10. porcentaje4, d[0,n]<--50%
+11. Escribir "Ingrese el numero de trajes comprados"
+12. Leer n_trajes
+13. Escribir "Ingrese el valor unitario de los trajes"
+14. Leer v_unitario
+15. v_total <-- n_trajes * v_unitario
+16. Si n_trajes ==1 entonces
+		// vt  ----  100%
+		// x   ----  20%
+17.   descuento <-- (porcentaje1 * v_total)/100
+18.   v_total <-- v_total - descuento
+19. 	De lo contrario
+20. 		Si n_trajes ==2
+		// vt  ----  100%
+		// x   ----  25%
+21.   descuento <-- (porcentaje2 * v_total)/100
+22.   v_total <-- v_total - descuento
+23. De lo contrario
+24. 		Si n_trajes ==3
+		// vt  ----  100%
+		// x   ----  40%
+25.   descuento <-- (porcentaje3 * v_total)/100
+26.   v_total <-- v_total - descuento
+27. De lo contrario
+28. 		Si n_trajes >3
+		// vt  ----  100%
+		// x   ----  50%
+29.   descuento <-- (porcentaje4 * v_total)/100
+30.   v_total <-- v_total - descuento
+31.			Fin si
+32.		Fin si
+33.	Fin si
+34. Fin si  
+35. Escribir "El valor total a pagar es, +subtotal\n +descuento\n v_total
+36. Fin

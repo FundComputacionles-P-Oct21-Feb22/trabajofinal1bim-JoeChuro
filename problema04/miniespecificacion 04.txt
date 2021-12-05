@@ -1,0 +1,26 @@
+Elaborar un algoritmo que permita leer 3 números e imprima el mayor. Debe validar que sean diferentes, es decir, si hay números iguales debe enviar un mensaje de error.
+
+1.  Inicio
+2.  n1, i[0,n]
+3.  n2, i[0,n]
+4.  n3, i[0,n]
+5.  numero_mayor, i[0,n]
+6.  Escribir "Ingrese el primer numero"
+7.  Leer n1
+8.  Escribir "Ingrese el segundo numero"
+9.  Leer n2
+10.  Escribir "Ingrese el tercer numero"
+11. Leer n3
+12. Mientras (n1=n2 || n2=n3 || n3=n1)
+13. Escritibir "ERROR"
+14. Fin mientras
+15. Si n1 > n2 entonces numero_mayor <-- n1
+16. De lo contrario
+17. Si n2 > n3 entonces numero_mayor <-- n2
+18. De lo contrario
+19. Si n3 > n1 entonces numero_mayor <-- n3
+20. 		Fin si
+21.	Fin si
+22. Fin si
+23. Escribir "El numero mayor es: "+numero mayor
+24. Fin

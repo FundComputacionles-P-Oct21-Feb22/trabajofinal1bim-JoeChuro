@@ -1,0 +1,21 @@
+Elaborar un algoritmo que permita leer un número par y calcule e imprima la suma de los números pares del 2 hasta el número leído. Si el número leído es menor a 2 debe imprimir un mensaje de error.
+
+1.  Inicio
+2.  n, i[0,n]<--2
+3.  suma, i[0,n]
+4.  x, i[0,n]<--2
+5.  contador, i[0,n]
+6.  cadena, x(1000){[0,9],[+]}
+7.  Para (n, x<=n ,2)
+8.  Escribir "Ingrese un numero par"
+9.  Leer n
+10. 	If (n >2)entonces
+11. 		Escribir "Error numero fuera de rango"
+12. 	De lo contrario
+13. 	If (n/2=0) entonces
+14. 		suma<-- x + contador 
+// x arranca en 2 y se incrementa en 2 hasta ser <=n los numeros se almacenan en el acumulador llamado cadena
+15. cadena <--(x + x + x...)
+16. Fin para
+17. Escribir "La suma de numeros pares hasta llegar al numero ingresado es: ",cadena
+18.Fin

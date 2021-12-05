@@ -1,0 +1,12 @@
+-Rectángulo tiene un ángulo recto (igual a 90°)
+-Obtusángulo tiene un ángulo obtuso (mayor que 90° pero menor 180°)
+-Acutángulo los tres ángulos son agudos (menor que 90°) 
+Elaborar un algoritmo que permita leer el tamaño de los tres ángulos (A,B,C) de un triángulo e imprima qué tipo es.
+
+1.  Inicio
+2.  Pedir al usuario escribir los 3 angulos del trianulo
+3.  Sumar los angulos dados por el usuario
+3.  Si la suma es igual a 90 presentar en pantalla el triangulo es recto
+4.  Si la suma es mayor que 90 pero menor a 180 presentar en pantalla el triangulo es un obtusangulo
+5.  Si la suma es menor que 90 presentar en pantalla el triangulo es agudo
+6.  Fin. 

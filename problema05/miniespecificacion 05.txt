@@ -1,0 +1,25 @@
+Dados dos puntos X y Y , que son las coordenadas del plano cartesiano, haga un algoritmo para clasificar el cuadrante del plano donde está ubicada la coordenada (X, Y ).
+
+1.  Inicio
+2.  cor_x, i[0,n]
+3.  cor_y, i[0,n]
+4.  Escribir "Ingrese la cordenas x"
+5.  Leer cor_x
+6.  Escribir "Ingrese la cordenas y"
+7.  Leer cor_y
+8.  Si cor_x>0 and y>0 entonces
+9.  Escribir "Las cordenadas estan ubicadas en el primer cuadrante"
+10. De lo contrario
+11. Si cor_x<0 and y>0 entonces
+12. De lo contrario
+13. Escribir "Las cordenadas estan ubicadas en el segundo cuadrante"
+14. De lo contrario
+15. Si cor_x<0 and y<0 entonces
+16. Escribir "Las cordenadas estan ubicadas en el tercer cuadrante"
+17. De lo contrario
+18. Si x=0 and y=0
+19. Escribir "Las cordenadas estan ubicadas en el origen"
+29.						Fin si
+30.					Fin si
+31.				Fin si
+35. Fin

@@ -1,0 +1,14 @@
+Dados dos puntos X y Y , que son las coordenadas del plano cartesiano, haga un algoritmo para clasificar el cuadrante del plano donde está ubicada la coordenada (X, Y ).
+
+1.  Inicio
+2.  Pedir al usuario "Ingrese la cordenada x";"Ingrese la cordenada y"
+3.  Evaluar si x>0 y y>0 entoces la cordenada esta ubicada en el primer cuadrante; Si no
+4.  Si x<0 y y>0 entoces la cordenada esta ubicada en el segundo cuadrante; Si no
+5.  Si x<0 y y<0 entoces la cordenada esta ubicada en el tercer cuadrante; Si no
+6.  Si x=0 y y=0 entoces la cordenada esta ubicada en el origen
+7.  Si x>0 entonces la cordenada esta ubicado en eje x negtivo Si n
+8.  De lo contrario la cordenada esta ubicada en el eje x positivo Sino
+9.  Si y<0 entonces la cordenada esta ubicado en el eje y negativo
+10. De lo contrario la cordenada esta ubicado en el eje y positivo
+11. Escribir en que eje esta ubicada la cadena.
+12. Fin

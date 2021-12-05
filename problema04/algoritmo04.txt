@@ -1,0 +1,7 @@
+Elaborar un algoritmo que permita leer 3 números e imprima el mayor. Debe validar que sean diferentes, es decir, si hay números iguales debe enviar un mensaje de error.
+
+1.  Inicio
+2.  Pedir al usuario ingresar 3 numeros diferente
+3.  Evaluar si los 3 numeros son distintos en caso de serlo mostrar un mensaje de error
+4.  Evaluar el numero mayor //n1 > n2 o n2 > n3 o n1 > n3
+5.  Mostrar en pantalla el numero mayor

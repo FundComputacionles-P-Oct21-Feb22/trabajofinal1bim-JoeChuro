@@ -1,0 +1,32 @@
+Elaborar un algoritmo que permita leer los datos de un empleado (nombre, tipo de empleado, número de horas trabajadas y cuota que se le paga por hora) y calcule e imprima el sueldo por pagar. Si el empleado es tipo 1 se le pagan las horas extras (más de 40 horas) a 1.5 de la cuota por hora, si es tipo 2, a 2, si es tipo 3, a 2.5, y si es tipo 4, a 3 veces la cuota por hora.
+
+1.  Inicio
+2.  nombre x(10000){[a-z],[A-Z],[BS]}
+3.  tipo_empleado, i[0,n]
+4.  costoxh, d[0,n]
+5.  costoxh_extra, d[0,n]
+5.  n_horas, d[0,n]
+6.  h_extra_1, d[0,n]<-- 1.5
+7.  h_extra_2, d[0,n]<-- 2
+8.  h_extra_3, d[0,n]<-- 2.5
+9.  Escribir "Ingrese el nombre del empleado"
+10. Leer nombre
+11. Escribir "Ingrese Tipo de empleado"
+12.  Leer tipo_empleado
+13. Escribir "Ingrese el numero de horas trabajadas"
+14. Leer n_horas
+15. Escritbir "Ingrese cuota por hora"
+16. Leer costoxh
+17. Sueldo <-- costoxh * n_horas
+18. 1Si tipo_empleando ==1 and n_horas >40 entonces
+19. sueldo <-- sueldo * h_extra_1
+20. De lo contrario 
+21. Si tipo_empleando ==2 and n_horas >40 entonces
+22. sueldo <-- sueldo * h_extra_2
+23. Si tipo_empleando ==3 and n_horas >40 entonces
+24. sueldo <-- sueldo * h_extra_3
+25. 		Fin si
+26.	Fin si
+27. Fin si
+28. Escribir "Sueldo",sueldo
+29. Fin
